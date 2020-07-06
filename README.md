@@ -1,5 +1,7 @@
 # Pulumi Action for Node.js
 
+**Automated Build**: This Docker image updates when [pulumi/pulumi-nodejs](https://hub.docker.com/r/pulumi/pulumi-nodejs) updates. Unfortunately, no versioning available.
+
 This Github Actions docker image is based on the new [pulumi/pulumi-nodejs](https://hub.docker.com/r/pulumi/pulumi-nodejs). An alternative to the Pulumi docker image.
 
 The problem I am having is that [pulumi/actions](https://hub.docker.com/r/pulumi/actions) are very heavy, because it leverages the Pulumi docker image and not these smaller new ones. The Pulumi docker image is ~800mb, this is ~150mb and should work just the same.
